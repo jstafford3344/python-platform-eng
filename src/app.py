@@ -9,7 +9,7 @@ def get_details():
     return jsonify({
         "time": datetime.datetime.now(),
         "hostname": socket.gethostname(),
-        "msg": "Triggering new Github Actions"
+        "msg": "Triggering Github Actions"
     })
 
 @app.route('/api/v1/healthz')
