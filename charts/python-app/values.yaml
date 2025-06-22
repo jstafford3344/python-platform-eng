@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: jstafford3344/python-app
   pullPolicy: IfNotPresent
-  tag: 3bcb4b
+  tag: c8a680
 podSecurityContext: {}
 serviceAccount:
   create: false
