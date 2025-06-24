@@ -5,7 +5,7 @@ metadata:
   description: Displays the hostname, time and status of the host the app is running on.
   annotations:
     github.com/project-slug: jstafford3344/python-platform-eng
-    # backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: development
